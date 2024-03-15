@@ -12,8 +12,10 @@ main() {
           ),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: const Image(
-          image: AssetImage('images/diamond.png'),
+        body: const Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
         ),
       ),
     ),
